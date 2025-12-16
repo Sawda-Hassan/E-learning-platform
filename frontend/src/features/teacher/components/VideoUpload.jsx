@@ -1,7 +1,7 @@
 // src/features/teacher/components/VideoUpload.jsx
 import React, { useState } from 'react';
 import { addCourseVideo, getSignedUploadUrl } from '../../../services/courseService';
-import api from '../../../api/api.js'; // axios instance
+//import api from '../../../api/api.js'; // axios instance
 
 export default function VideoUpload({ courseId, onAdded }) {
   const [url, setUrl] = useState('');

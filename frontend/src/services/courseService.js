@@ -1,5 +1,5 @@
 // src/services/courseService.js
-import api from '../api/'; // axios instance
+//import api from '../api/'; // axios instance
 
 // Course-related API calls
 export const getCourses = () => api.get('/courses').then(r => r.data);
