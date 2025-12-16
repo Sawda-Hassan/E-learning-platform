@@ -1,0 +1,6 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Tell Tailwind where your markup lives (v4 way) */
+@source "../index.html";
+@source "./**/*.{js,jsx,ts,tsx}";
